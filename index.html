@@ -103,6 +103,68 @@
 .sobre p {
     margin-bottom: 10px; /* Define um espaçamento de 10 pixels entre os parágrafos */
   }
+
+.criacoes{
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 130px;
+    margin-top: 30px;
+    max-width: 100%;
+}
+
+.barra1{
+    width: 108px;
+    height: 2px;
+    background-color: #ff3366;
+    margin-left: 130px;
+    margin-top: -10px;
+    background: linear-gradient(to right, #ffcc00, #ff3366); /* Defina as cores do seu degradê aqui */
+}
+
+.criado{
+    font-weight: normal;
+    font-size: 18px;
+    text-indent: 8px;
+    margin-left: 25px;
+}
+
+#caixa {
+    width: 250px;
+    height: 240px;
+    background: linear-gradient(to right, #ffcc00, #ff3366); /* Defina as cores do seu degradê aqui */
+    margin: 15px auto 0 auto;
+    border: none;
+    display: flex;
+    padding: 15px;
+    overflow: auto;
+    border-radius: 15px;
+}
+
+#caixa div {
+    min-width: 235px;
+    max-height: 235px;
+    background: rebeccapurple;
+    border: none;
+    margin-left: 25px;
+    overflow: hidden;
+    border-radius: 15px;
+    transform: translateX(-15px);
+}
+
+#caixa div p {
+    margin-top: 50%;
+    margin-left: 50%;
+    font: bold;
+    color: aliceblue;
+    
+}
+
+#caixa div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Isso garante que a imagem preencha a div mantendo sua proporção */
+}        
+        
     </style>
 </head>
 <body>
@@ -128,8 +190,19 @@
         <p class="sobre3">Quando os monstrinhos estavam prontos, eram colocados em uma cesta. Quando a cesta ficava cheia, eles eram doados a crianças necessitadas que não tinham brinquedos. A mãe expressava grande alegria ao ver as crianças sorrindo com os monstrinhos. 
         <p class="sobre4">Em 2017, o projeto ganhou apoio da comunidade local e continuou a espalhar alegria através das doações dos monstrinhos.</p></p>
     </nav>
-</p>
 
+    <nav class="monstrinhos">
+        <p class="criacoes">CRIAÇÕES</p>
+        <div class="barra1"></div>
+        <p class="criado">Nós criamos várias versões de monstrinhos, e aqui está alguns!</p>
+        <div id="caixa">
+            <div><img src="https://i.im.ge/2023/09/26/N9aT0K.bixo-1.jpg"></div>
+            <div><img src="https://i.im.ge/2023/09/26/N9aDMP.bixo2.jpg"></div>
+            <div><img src="https://i.im.ge/2023/09/26/N9aVqM.bixo-3.jpg"></div>
+            <div><img src="https://i.im.ge/2023/09/26/N9akkD.bixo-4.jpg"></div>
+            <div><img src="https://i.im.ge/2023/09/26/N9aHu4.bixo-5.jpg"></div>
+        </div>
+    </nav>
     
 </body>
 </html>
